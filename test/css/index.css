@@ -1,0 +1,58 @@
+@font-face {
+  font-family: IRANSansWeb;
+  src: url('../font/IRANSansWeb/IRANSansWeb\(FaNum\).ttf');
+}
+
+* {
+  font-family: IRANSansWeb;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+.container > button {
+  margin: 10px 1px;
+  padding: 5px 15px;
+  width: 100px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-align: center;
+  vertical-align: middle;
+  color: #525f7f;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #fff;
+  border-color: #172b4d;
+  background-color: #172b4d;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.container > button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  color: #fff;
+  border-color: #172b4d;
+  background-color: #172b4d;
+}
+
+.container > button:focus {
+  outline: 0;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%),
+    0 0 0 0 rgb(23 43 77 / 50%);
+}
