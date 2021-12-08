@@ -2,6 +2,10 @@
 Elegant, responsive, flexible and lightweight notification plugin with no dependencies.
 
 	
-Documentation: [izitoast.marcelodolza.com](http://izitoast.marcelodolza.com)
+
+This is a personalized version.
+<br>
+See the original version <a href="https://github.com/marcelodolza/iziToast">here</a>.
+<br>
 
 ![capa](http://i.imgur.com/NKk7Rxm.png)
